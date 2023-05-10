@@ -8,3 +8,8 @@ auth_router = APIRouter(
 @auth_router.get('/')
 async def hello():
     return {'message': 'Hello from auth'}
+'''
+@auth_router.ge('/hello')
+async def hello2():
+    return {}
+    '''

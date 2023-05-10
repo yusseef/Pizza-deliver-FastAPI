@@ -6,3 +6,8 @@ app = FastAPI()
 
 app.include_router(auth_router)
 app.include_router(order_router)
+'''
+@app.get('/admin')
+async def hello():
+    return {"Hello"}
+    '''
