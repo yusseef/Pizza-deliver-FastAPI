@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-engine = create_engine('postgresql://postgres:admin@localhost/pizza_delivery', echo = True)
+Engine = create_engine('postgresql://postgres:admin@localhost/pizza_delivery', echo = True)
 
 Base = declarative_base() #Declarative classes are those that define their table schema using a set of class variables, rather than actual SQL.
 
